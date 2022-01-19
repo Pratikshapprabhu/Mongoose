@@ -3,7 +3,7 @@ var body_parser = require('body-parser');
 var mongoose = require('./mongoose.config');
 var passport = require("passport");
 var LocalStrategy = require("passport-local");
-var User = require('../students/models/models.users');
+var User = require('../Employee/models/models.users');
 require('dotenv').config();
 var app = express();
 app.use(body_parser.json());
